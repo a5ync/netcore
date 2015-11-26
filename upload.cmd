@@ -1,0 +1,1 @@
+pscp -scp dragon.pdf root@192.168.1.214:~

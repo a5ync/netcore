@@ -1,44 +1,19 @@
 {
-  "version": "1.0.0-*",
-  "description": "ConsoleApp1 Console Application",
-  "authors": [ "daroth" ],
-  "tags": [ "" ],
-  "projectUrl": "",
-  "licenseUrl": "",
-
-  "compilationOptions": {
-    "emitEntryPoint": true
-  },
-
-  "dependencies": {
-  },
-
-  "commands": {
-    "ConsoleApp1": "ConsoleApp1"
-  },
-
+    "userSecretsId": "processRunner",
+    "version": "1.0.0-*",
+    "dependencies": {
+      "Microsoft.Dnx.Runtime.Abstractions": "1.0.0-beta7",
+        "Microsoft.Framework.Configuration.Json": "1.0.0-beta7",
+        "Microsoft.Framework.Configuration.CommandLine": "1.0.0-beta7",
+        "Microsoft.Framework.Configuration.EnvironmentVariables": "1.0.0-beta7",
+        "Microsoft.Framework.Logging": "1.0.0-beta7",
+        "Microsoft.Framework.Logging.Console": "1.0.0-beta7",
+        "Microsoft.Framework.DependencyInjection": "1.0.0-beta7"
+    },
+    "commands": {
+        "run": "run"
+    },
     "frameworks": {
-        "dnx451": {
-            "frameworkAssemblies": {
-                "System.Collections": "",
-                "System.IO": "",
-                "System.Runtime": "",
-                "System.Xml": "",
-                "System.Xml.Linq": "",
-                "System.Threading.Tasks": "",
-                "System.Text.Encoding": ""
-            }
-        },
-        "dnxcore50": {
-            "dependencies": {
-                "System.IO": "4.0.11-*",
-                "System.Console": "4.0.0-*",
-                "System.Linq": "4.0.1-*",
-                "System.Reflection": "4.0.11-*",
-                "System.Runtime": "4.0.21-*",
-                "System.Threading.Tasks": "4.0.11-*",
-                "System.ComponentModel": "4.0.1-*"
-            }
-        }
+        "dnx451": { }
     }
 }
